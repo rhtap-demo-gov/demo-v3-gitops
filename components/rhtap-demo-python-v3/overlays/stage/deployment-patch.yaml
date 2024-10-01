@@ -12,5 +12,5 @@ spec:
   template: 
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/dance-bootstrap-app:latest
+      - image: image-registry.openshift-image-registry.svc.cluster.local:5000/rhtap-app-development/demo-python:8e29c6a4847960cd07ffdbe8d94ab36763313e7a@sha256:eca235cc11d078db9c9da5d4337a15da0372645e92e64c0cd61a69424a32fa08
         name: container-image  
